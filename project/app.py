@@ -122,4 +122,6 @@ def search():
 
 
 if __name__ == "__main__":
-    app.run()
+    print("running: ", url)
+    app.run(debug=True)
+    
